@@ -135,7 +135,7 @@ body {
 #p3-exp-edu {
   padding-top: 20%;
   margin-top: -10px;
-  background-image: url("../images/wave-haikei(4).svg");
+  background-image: url("../images/stacked-waves-haikei.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -161,12 +161,20 @@ body {
 }
 
 #p4-skills {
+  padding-top: 10%;
   margin-top: -10px;
-  background-image: url("../images/wave-haikei(5).svg");
+  background-image: url("../images/blob-scatter-haikei.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 100vh;
+}
+#p4-skills h1 {
+  text-align: center;
+  font-size: 3.3vw;
+  color: #e1b66b;
+  text-shadow: -1.5px -1.5px 1px #ffe29d, 1px 1px 4px #473d22;
+  margin-bottom: 5%;
 }
 #p4-skills #skills-image-lists ul {
   display: grid;
@@ -184,13 +192,20 @@ body {
 
 #p5-contacts {
   margin-top: -10px;
-  background-image: url("../images/wave-haikei(6).svg");
+  background-image: url("../images/wavesOpacity.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-height: 50vh;
   padding-top: 10%;
   padding-bottom: 10%;
+}
+#p5-contacts h1 {
+  text-align: center;
+  font-size: 3.3vw;
+  color: #e1b66b;
+  text-shadow: -1.5px -1.5px 1px #ffe29d, 1px 1px 4px #473d22;
+  margin-bottom: 5%;
 }
 #p5-contacts ul {
   display: grid;
