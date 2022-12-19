@@ -196,8 +196,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 50vh;
-  padding-top: 10%;
+  max-height: 20vh;
+  background-image: url("../images/layered-waves-haikei.svg");
+  padding-top: 3%;
   padding-bottom: 10%;
 }
 #p5-contacts h1 {
@@ -210,12 +211,14 @@ body {
 #p5-contacts ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 20%;
   list-style: none;
-  justify-content: center;
 }
 #p5-contacts ul li img {
   width: 30%;
 }
 #p5-contacts ul li a {
+  color: #7bf6f1;
+  text-decoration: none;
   margin-bottom: 10%;
 }/*# sourceMappingURL=styles.css.map */
