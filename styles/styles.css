@@ -150,6 +150,7 @@ html, body {
        column-gap: 10%;
   list-style: none;
   transition: all 1s;
+  transition: all 1s;
 }
 @media only screen and (max-width: 1000px) {
   #p1-intro #pose-image-container #text-bubble-p1 ul {
