@@ -191,7 +191,7 @@ body {
 }
 #p2-projects h1 {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   color: #e1b66b;
   text-shadow: -1.5px -1.5px 1px #ffe29d, 1px 1px 4px #473d22;
   margin-bottom: 5%;
@@ -199,6 +199,7 @@ body {
 @media only screen and (max-width: 600px) {
   #p2-projects h1 {
     padding-top: 50px;
+    font-size: 2em;
   }
 }
 #p2-projects #projects-list {
@@ -252,10 +253,15 @@ body {
 }
 #p3-exp-edu h1 {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   color: #e1b66b;
   text-shadow: -1.5px -1.5px 1px #ffe29d, 1px 1px 4px #473d22;
   margin-bottom: 5%;
+}
+@media only screen and (max-width: 600px) {
+  #p3-exp-edu h1 {
+    font-size: 2em;
+  }
 }
 #p3-exp-edu #uni,
 #p3-exp-edu #work {
@@ -264,6 +270,7 @@ body {
   box-shadow: 7px 7px 24px #4e555b, -7px -7px 24px #90a5bc;
   padding: 5%;
   margin: 10%;
+  font-size: 1.5em;
 }
 #p3-exp-edu #uni ul,
 #p3-exp-edu #work ul {
@@ -281,9 +288,14 @@ body {
 }
 #p4-skills h1 {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   color: #feb88f;
   text-shadow: -1.5px -1.5px 1px #ffc6a2, 1px 1px 4px #af7e43;
+}
+@media only screen and (max-width: 600px) {
+  #p4-skills h1 {
+    font-size: 2em;
+  }
 }
 #p4-skills #skills-image-lists ul {
   display: grid;
@@ -320,10 +332,15 @@ body {
 }
 #p5-contacts h1 {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   color: #e1966b;
   text-shadow: -1.5px -1.5px 1px #ffe29d, 1px 1px 4px #473d22;
   margin-bottom: 5%;
+}
+@media only screen and (max-width: 600px) {
+  #p5-contacts h1 {
+    font-size: 2em;
+  }
 }
 #p5-contacts ul {
   display: grid;
@@ -332,6 +349,7 @@ body {
   list-style: none;
 }
 #p5-contacts ul li img {
+  transition: all 0.5s;
   width: 30%;
 }
 #p5-contacts ul li img:hover {
