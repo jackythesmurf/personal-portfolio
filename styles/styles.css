@@ -4,9 +4,10 @@
   font-family: monospace;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
-  background-color: #A7C7E7;
+  background-color: #a7c7e7;
 }
 
 #nav-bar {
@@ -58,8 +59,18 @@ html, body {
 #nav-bar nav ul li a:hover {
   color: #fef0c9;
   border-radius: 60px;
-  background: linear-gradient(145deg, #81a0be, #b3d5f7);
-  box-shadow: 5px 5px 8px #788ea4, -5px -5px 8px #d4edff;
+}
+@media only screen and (max-width: 600px) {
+  #nav-bar nav ul li a:hover {
+    color: #b28300;
+    font-size: smaller;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #nav-bar nav ul li a:hover {
+    background: linear-gradient(145deg, #81a0be, #b3d5f7);
+    box-shadow: 5px 5px 8px #788ea4, -5px -5px 8px #d4edff;
+  }
 }
 @media only screen and (max-width: 600px) {
   #nav-bar {
@@ -172,12 +183,23 @@ html, body {
   background-size: cover;
   min-height: 80vh;
 }
+@media only screen and (max-width: 600px) {
+  #p2-projects {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+}
 #p2-projects h1 {
   text-align: center;
-  font-size: 3.3vw;
+  font-size: 2em;
   color: #e1b66b;
   text-shadow: -1.5px -1.5px 1px #ffe29d, 1px 1px 4px #473d22;
   margin-bottom: 5%;
+}
+@media only screen and (max-width: 600px) {
+  #p2-projects h1 {
+    padding-top: 50px;
+  }
 }
 #p2-projects #projects-list {
   display: grid;
@@ -230,19 +252,21 @@ html, body {
 }
 #p3-exp-edu h1 {
   text-align: center;
-  font-size: 3.3vw;
+  font-size: 2em;
   color: #e1b66b;
   text-shadow: -1.5px -1.5px 1px #ffe29d, 1px 1px 4px #473d22;
   margin-bottom: 5%;
 }
-#p3-exp-edu #uni, #p3-exp-edu #work {
+#p3-exp-edu #uni,
+#p3-exp-edu #work {
   border-radius: 28px;
   background: linear-gradient(145deg, #c3e0fa, #6d8494);
   box-shadow: 7px 7px 24px #4e555b, -7px -7px 24px #90a5bc;
   padding: 5%;
   margin: 10%;
 }
-#p3-exp-edu #uni ul, #p3-exp-edu #work ul {
+#p3-exp-edu #uni ul,
+#p3-exp-edu #work ul {
   list-style: none;
 }
 
@@ -257,15 +281,14 @@ html, body {
 }
 #p4-skills h1 {
   text-align: center;
-  font-size: 3.3vw;
+  font-size: 2em;
   color: #feb88f;
   text-shadow: -1.5px -1.5px 1px #ffc6a2, 1px 1px 4px #af7e43;
-  margin-bottom: 5%;
 }
 #p4-skills #skills-image-lists ul {
   display: grid;
   grid-template-columns: 20vw 20vw 20vw;
-  margin-left: 5%;
+  text-align: center;
   row-gap: 5%;
   -moz-column-gap: 5%;
        column-gap: 5%;
@@ -273,7 +296,16 @@ html, body {
   justify-content: center;
 }
 #p4-skills #skills-image-lists ul li img {
-  width: 40%;
+  width: 100px;
+}
+@media only screen and (max-width: 600px) {
+  #p4-skills #skills-image-lists ul {
+    grid-template-columns: 40vw 40vw;
+    text-align: center;
+  }
+  #p4-skills #skills-image-lists ul li img {
+    width: 80px;
+  }
 }
 
 #p5-contacts {
@@ -288,7 +320,7 @@ html, body {
 }
 #p5-contacts h1 {
   text-align: center;
-  font-size: 3.3vw;
+  font-size: 2em;
   color: #e1966b;
   text-shadow: -1.5px -1.5px 1px #ffe29d, 1px 1px 4px #473d22;
   margin-bottom: 5%;
@@ -296,7 +328,7 @@ html, body {
 #p5-contacts ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-left: 20%;
+  text-align: center;
   list-style: none;
 }
 #p5-contacts ul li img {
@@ -312,4 +344,17 @@ html, body {
   font-size: 1.5vw;
   color: #ffff08;
   text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  #p5-contacts ul {
+    text-align: center;
+  }
+  #p5-contacts ul li img {
+    width: 80px;
+  }
+  #p5-contacts ul li p a {
+    font-size: 0.7em;
+    color: #05116e;
+    text-decoration: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
