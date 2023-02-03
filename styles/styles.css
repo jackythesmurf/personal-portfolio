@@ -145,12 +145,14 @@ body {
   text-align: center;
   padding-left: 10%;
   transition: all 1s;
+  font-size: 1.5em;
 }
 @media only screen and (max-width: 1000px) {
   #p1-intro #pose-image-container #text-bubble-p1 {
     margin: 2%;
     margin-top: 5%;
     padding: 2%;
+    font-size: 1em;
   }
 }
 #p1-intro #pose-image-container #text-bubble-p1 ul {
@@ -368,7 +370,7 @@ body {
     text-align: center;
   }
   #p5-contacts ul li img {
-    width: 80px;
+    width: 40px;
   }
   #p5-contacts ul li p a {
     font-size: 0.7em;
